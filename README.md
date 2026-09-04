@@ -61,3 +61,13 @@ Digite sua opcao: 19
 Digite um angulo em graus: 90
 Seno: 1.00
 ```
+
+-------
+
+## Aprendizados
+
+-  Estruturas de menu utilizando ```switch-case```
+- Uso de laços como ```while``` para manter o loop do programa
+- Entrad e saída de dados utilizando ```printf/scanf```
+
+-------
