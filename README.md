@@ -31,8 +31,8 @@ As 20 opções disponíveis são
 13. **Quadrado**
 14. **Cubo**
 15. **Positivo ou Negativo** 
-16. **Maior entre dois números*
-17. **Menor entre dois números*
+16. **Maior entre dois números**
+17. **Menor entre dois números**
 18. **Valor Absoluto**
 19. **Seno**
 20. **Cosseno**
@@ -45,3 +45,19 @@ As 20 opções disponíveis são
 * **Linguagem C**: Linguagem base do projeto.
 * ```stdio.h```: Biblioteca para entrada e saída de dados no terminal.
 * ```math.h``` : Biblioteca matemática para funções como `pow`, `sqrt`, `fabs`, `sin`, `cos`
+
+-------
+
+```
+Escolha uma operacao:
+1  - Soma
+...
+19 - Seno
+20 - Cosseno
+0  - Sair
+
+Digite sua opcao: 19
+
+Digite um angulo em graus: 90
+Seno: 1.00
+```
