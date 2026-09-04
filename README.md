@@ -1,6 +1,8 @@
 # Calculadora-em-C
 
+Projeto de uma calculadora com 20 funções matemáticas diferentes.
 
+Projeto feito para treinar conceitos básicos da linguagem, como estruturas condicionais, laço de repetição, entrada e saída dadks, além de explorar as funções da biblioteca ```math.h```
 ______
 
 *Alunos*
@@ -48,6 +50,8 @@ As 20 opções disponíveis são
 
 -------
 
+## Exemplo de execução 
+
 ```
 Escolha uma operacao:
 1  - Soma
@@ -68,6 +72,7 @@ Seno: 1.00
 
 -  Estruturas de menu utilizando ```switch-case```
 - Uso de laços como ```while``` para manter o loop do programa
-- Entrad e saída de dados utilizando ```printf/scanf```
+- Entrada e saída de dados utilizando ```printf/scanf```
+- Uso da biblioteca ```math.h``` para funções matemáticas.
 
 -------
