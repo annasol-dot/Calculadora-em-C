@@ -1,4 +1,4 @@
-# Desenvolvimento_de_Algoritmos_e_Pensamento_Computacional
+# Calculadora
 
 Projeto de uma calculadora com 20 funções matemáticas diferentes.
 
@@ -25,17 +25,17 @@ As 20 opções disponíveis são
 5. **Resto da Divisão**
 6. **Potência**
 7. **Raiz Quadrada**
-8. **Porcentagem**
-9. **Média de 2 números**
-10. **Média de 3 números**
-11. **Duplo**
-12. **Triplo**
-13. **Quadrado**
-14. **Cubo**
-15. **Positivo ou Negativo** 
-16. **Maior entre dois números**
-17. **Menor entre dois números**
-18. **Valor Absoluto**
+8. **Raiz Cúbica**
+9. **Porcentagem**
+10. **Média de 2 números**
+11. **Média de 3 números**
+12. **Logaritmo Natural**
+13. **Logaritmo na base 10**
+14. **Área do Triângulo**
+15. **Área do Círculo**
+16. **Cirunferência** 
+17. **Valor Absoluto**
+18. **Tangente**
 19. **Seno**
 20. **Cosseno**
 0. **Sair** (Encerra o programa)
