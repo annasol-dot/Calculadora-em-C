@@ -1,4 +1,4 @@
-# Calculadora-em-C
+# Desenvolvimento_de_Algoritmos_e_Pensamento_Computacional
 
 Projeto de uma calculadora com 20 funções matemáticas diferentes.
 
