@@ -1,4 +1,4 @@
-# Calculadora
+# Calculadora em C
 
 Projeto de uma calculadora com 20 funções matemáticas diferentes.
 
