@@ -9,7 +9,7 @@ ______
   - Anna Clara Damasceno de Almeida 
   - Arthur Pierre Aguiar da Silva
   - Suellen Carolynne Queiroz dos Santos
-  - Rafael Eliaquin
+  - Rafael Eliaquim Ramos Lima
 
 ------
 
