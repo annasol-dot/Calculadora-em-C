@@ -18,17 +18,17 @@ int main() {
         printf("5  - Resto da divisao\n");
         printf("6  - Potencia\n");
         printf("7  - Raiz quadrada\n");
-        printf("8  - Porcentagem\n");
-        printf("9  - Media de dois numeros\n");
-        printf("10 - Media de tres numeros\n");
-        printf("11 - Dobro\n");
-        printf("12 - Triplo\n");
-        printf("13 - Quadrado\n");
-        printf("14 - Cubo\n");
-        printf("15 - Numero positivo ou negativo\n");
-        printf("16 - Maior entre dois numeros\n");
-        printf("17 - Menor entre dois numeros\n");
-        printf("18 - Valor absoluto\n");
+        printf("8  - Raiz Cúbica\n");
+        printf("9  - Porcentagem\n");
+        printf("10 - Media de dois numeros\n");
+        printf("11 - Media de tres numeros\n");
+        printf("12 - Logaritmo Natural\n");
+        printf("13 - Logaritmo na base 10\n");
+        printf("14 - Àrea do Triângulo\n");
+        printf("15 - Àrea do Círculo\n");
+        printf("16 - Circunfêrencia\n");
+        printf("17 - Valor absoluto\n");
+        printf("18 - Tangente\n");
         printf("19 - Seno\n");
         printf("20 - Cosseno\n");
         printf("0  - Sair\n");
@@ -134,6 +134,14 @@ int main() {
                 break;
 
             case 8:
+                printf("Digite um número: ");
+                scanf("%lf", &n1);
+
+                resultado = cbrt(n1);
+                printf("Resultado: %.4lf\n", resultado);
+                break;
+
+            case 9:
                 printf("\nDigite um numero: ");
                 scanf("%lf", &n1);
 
@@ -146,7 +154,7 @@ int main() {
                        n2, n1, resultado);
                 break;
 
-            case 9:
+            case 10: 
                 printf("\nDigite o primeiro numero: ");
                 scanf("%lf", &n1);
 
@@ -158,8 +166,8 @@ int main() {
                 printf("Media: %.2lf\n", resultado);
                 break;
 
-            case 10: {
-                double n3;
+            case 11: {
+                 double n3;
 
                 printf("\nDigite o primeiro numero: ");
                 scanf("%lf", &n1);
@@ -175,89 +183,49 @@ int main() {
                 printf("Media: %.2lf\n", resultado);
                 break;
             }
-
-            case 11:
-                printf("\nDigite um numero: ");
-                scanf("%lf", &n1);
-
-                resultado = n1 * 2;
-
-                printf("Dobro: %.2lf\n", resultado);
-                break;
-
             case 12:
                 printf("\nDigite um numero: ");
                 scanf("%lf", &n1);
 
-                resultado = n1 * 3;
+                resultado = log(n1);
 
-                printf("Triplo: %.2lf\n", resultado);
+                printf("Logaritmo: %.lf\n", resultado);
                 break;
 
             case 13:
                 printf("\nDigite um numero: ");
                 scanf("%lf", &n1);
 
-                resultado = n1 * n1;
-
-                printf("Quadrado: %.2lf\n", resultado);
+                resultado = log10(n1);
+                printf("\nLogaritmo na base 10: ");
                 break;
-
+                
             case 14:
-                printf("\nDigite um numero: ");
+                printf("\nDigite o valor da base: ");
                 scanf("%lf", &n1);
 
-                resultado = n1 * n1 * n1;
-
-                printf("Cubo: %.2lf\n", resultado);
+                printf("\nDigite o valor da altura: ");
+                scanf("%lf", &n2);
+                
+                resultado = (n1 * n2) / 2;
+                printf("Àrea do triângulo: %.2lf\n", resultado);
                 break;
 
             case 15:
-                printf("\nDigite um numero: ");
+                printf("\nDigite o valor do raio: ");
                 scanf("%lf", &n1);
 
-                if (n1 > 0) {
-                    printf("O numero e positivo.\n");
-                } else if (n1 < 0) {
-                    printf("O numero e negativo.\n");
-                } else {
-                    printf("O numero e zero.\n");
-                }
+                resultado = 3.1415 * n1 ^ 2;
+                printf("\nÀrea do círculo: ");
                 break;
 
             case 16:
-                printf("\nDigite o primeiro numero: ");
+                printf("\nDigite o valor do raio: ");
                 scanf("%lf", &n1);
 
-                printf("Digite o segundo numero: ");
-                scanf("%lf", &n2);
-
-                if (n1 > n2) {
-                    printf("O maior numero e: %.2lf\n", n1);
-                } else if (n2 > n1) {
-                    printf("O maior numero e: %.2lf\n", n2);
-                } else {
-                    printf("Os dois numeros sao iguais.\n");
-                }
-                break;
-
+                resultado = 2 * 3.1415 * n1;
+               
             case 17:
-                printf("\nDigite o primeiro numero: ");
-                scanf("%lf", &n1);
-
-                printf("Digite o segundo numero: ");
-                scanf("%lf", &n2);
-
-                if (n1 < n2) {
-                    printf("O menor numero e: %.2lf\n", n1);
-                } else if (n2 < n1) {
-                    printf("O menor numero e: %.2lf\n", n2);
-                } else {
-                    printf("Os dois numeros sao iguais.\n");
-                }
-                break;
-
-            case 18:
                 printf("\nDigite um numero: ");
                 scanf("%lf", &n1);
 
@@ -265,6 +233,16 @@ int main() {
 
                 printf("Valor absoluto: %.2lf\n", resultado);
                 break;
+
+            case 18:
+                printf("\nDigite um angulo em graus: ");
+                scanf("%lf", &n1);
+
+                resultado = tan(n1 * M_PI / 180);
+
+                printf("Tangente: %.2lf\n", resultado);
+                break;
+
 
             case 19:
                 printf("\nDigite um angulo em graus: ");
