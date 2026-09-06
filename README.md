@@ -8,7 +8,7 @@ ______
 *Alunos*
   - Anna Clara Damasceno de Almeida 
   - Arthur Pierre Aguiar da Silva
-  - Suellen
+  - Suellen Carolynne Queiroz dos Santos
   - Rafael Eliaquin
 
 ------
